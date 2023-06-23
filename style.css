@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+img{
+    width: 2rem;
+}
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(20, 171, 37, 0.401);
+}
+form{
+    background-color: rgb(63, 167, 80);
+    display: flex;
+    flex-direction: column;
+    height: 32rem;
+    width: 25rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    padding: 1rem;
+    justify-content: space-around;
+    color: rgb(17, 31, 31);
+    font-weight: 600;
+    border: 10px dotted rgb(8, 21, 4);
+}
+.datospersonales{
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+}
+.inputdp{
+    width: 7rem;
+    height: 1.5rem;
+}
+.computadora{
+    display: flex;
+    gap: 2rem;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.3rem;
+}
+select{
+    width: 12rem;
+}
+textarea{
+    resize: none;
+    width:18rem ;
+    height: 8rem;
+}
+.boton{
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    border-radius: 20px;
+    background-color: rgb(125, 141, 135);
+}
+section{
+    background-color: rgb(63, 167, 80);
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem;
+    border-radius: 30px;
+    border: 10px dotted rgb(8, 21, 4);
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+div a{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(151, 8, 82);
+    }
+    form{
+        width: 90%;
+        align-items: center;
+        background-color: rgb(209, 98, 156);
+        color: rgb(103, 8, 66);
+        border: 4px dotted rgb(79, 12, 68);
+    }
+    .inputdp{
+        width: 3rem;
+    }
+    textarea{
+        width: 15rem;
+        background-color: rgb(204, 151, 194);
+    }
+    section{
+        width: 18rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        align-items: center;
+        background-color: rgb(209, 98, 156);
+        color: rgb(103, 8, 66);
+        border: 4px dotted rgb(79, 12, 68);
+    }
+    iframe{
+        width: 15rem;
+        height: 15rem;
+    }
+    .boton{
+        align-self: center;
+        color: rgb(225, 225, 225);
+        background-color: rgb(151, 8, 82);
+    }
+    .computadora{
+        align-items: center;
+    }
+    a{
+        color: rgb(79, 3, 50);
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(13, 86, 196);
+    }
+    form{
+        width: 50%;
+        align-items: center;
+        background-color: rgb(116, 181, 239);
+        color: rgb(16, 71, 113);
+        border: 5px dotted rgb(11, 49, 151);
+    }
+    .inputdp{
+        width: 3rem;
+    }
+    textarea{
+        width: 15rem;
+        background-color: rgb(92, 227, 200);
+    }
+    section{
+        width: 25rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        align-items: center;
+        background-color: rgb(116, 181, 239);
+        color: rgb(16, 71, 113);
+        border: 5px dotted rgb(11, 49, 151);
+    }
+    iframe{
+        width: 20rem;
+        height: 15rem;
+    }
+    .boton{
+        align-self: center;
+        color: rgb(225, 225, 225);
+        background-color: rgb(13, 86, 196);
+    }
+    .computadora{
+        align-items: center;
+    }
+    a{
+        color: rgb(16, 71, 113);
+    }
+}
+

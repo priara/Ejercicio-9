@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Obra Social de Desarrolladores</title>
+</head>
+<body>
+    <form action="./show_data.html" method="get">
+        <fieldset class="datospersonales">
+            <legend>Datos Personales</legend>
+            <img src="./id-card.png" alt="">
+            <label for="nombre">Nombre</label>
+            <input class="inputdp" type="text" id="nombre" name="nombre">
+            <label for="apellido">Apellido</label>
+            <input class="inputdp" type="text" id="apellido" name="apellido">
+        </fieldset>
+        <fieldset class="mail">
+            <legend>E-mail</legend>
+            <img src="./email.png" alt="">
+            <input type="text" id="email" name="correo-electronico">
+        </fieldset>
+        <fieldset class="computadora">
+            <legend>Tipo de Computadora</legend>
+            <input type="radio" id="note" name="computadora" value="notebook">
+            <label for="note">Notebook</label>
+            <input type="radio" id="pc-de-escritorio" name="computadora" value="pc">
+            <label for="pc-de-escritorio">PC de escritorio</label>
+        </fieldset>
+        <label for="pais">País de Residencia:</label>
+        <select name="pais-de-residencia" id="pais">
+            <option value=" ">--selecciona una opcion--</option>
+            <option value="argentina">Argentina</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="chile">Chile</option>
+            <option value="colombia">Colombia</option>
+        </select>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        <input class="boton" type="submit" value="Enviar">
+    </form>
+    <section>
+        <h1>Registro De OSDeDa (Obra Social De Desarrolladores)</h1>
+        <div>
+            <a href="tel:9703726385">Tel: 9703726385</a>
+            <a href="mailto:contacto@osdeda.com">Email: contacto@osdeda.com</a>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11702.571499460331!2d-58.385303248494864!3d-34.606105030561835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3353283598701%3A0xff14e7edde2f5152!2sCentro%20Cultural%20Kirchner%20(CCK)!5e0!3m2!1ses!2sar!4v1687400035406!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+</body>
+</html>
